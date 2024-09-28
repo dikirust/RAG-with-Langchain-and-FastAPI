@@ -55,7 +55,7 @@ Make sure you have the following installed:
 ### Add Your OpenAI API Key 🔑
 To integrate the OpenAI language model into your RAG system, you’ll need to provide your OpenAI API key. Follow these steps to set it up:
 
-1.Get your API key: If you don’t have one yet, you can generate your OpenAI API key by logging into your account on the OpenAI platform.
+1. Get your API key: If you don’t have one yet, you can generate your OpenAI API key by logging into your account on the OpenAI platform.
 
 2. Create a .env file: In the root directory of your project, create a .env file to securely store your API key. The .env file allows you to load environment variables.
 
