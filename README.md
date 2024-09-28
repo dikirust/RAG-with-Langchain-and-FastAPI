@@ -91,25 +91,6 @@ Now, your OpenAI API key is securely loaded from the environment, and you're rea
 - **Document Handling**: Supports multiple document types for loading and processing.
 - **Vector Embeddings**: Efficient search with FAISS or other vector stores.
 
-## 🏗️ Project Structure
-
-```bash
-rag_project/
-├── app/
-│   ├── main.py             # FastAPI application entry point
-│   ├── api/
-│   │   ├── endpoints.py    # API endpoints
-│   ├── core/
-│   ├── models/
-│   ├── services/
-│   └── utils/
-├── data/                   # Data files for testing
-├── tests/                  # Unit and integration tests
-├── Dockerfile              # Dockerfile for containerization
-├── requirements.txt        # Python dependencies
-└── README.md               # This file!
-```
-
 ## 🛡️ Security
 
 - 🔐 **OAuth2 and API Key** authentication support for secure API access.
