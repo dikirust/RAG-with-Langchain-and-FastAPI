@@ -52,6 +52,37 @@ Make sure you have the following installed:
 
    Now, your FastAPI app will be running at `http://127.0.0.1:8000` 🎉!
 
+### Add Your OpenAI API Key 🔑
+To integrate the OpenAI language model into your RAG system, you’ll need to provide your OpenAI API key. Follow these steps to set it up:
+
+1.Get your API key: If you don’t have one yet, you can generate your OpenAI API key by logging into your account on the OpenAI platform.
+
+2. Create a .env file: In the root directory of your project, create a .env file to securely store your API key. The .env file allows you to load environment variables.
+
+3. Add the API key to the .env file: Open the .env file and add the following line, replacing your-openai-api-key with your actual OpenAI key:
+
+```bash
+OPENAI_API_KEY=your-openai-api-key
+```
+
+4. Load the API key in your code: Ensure your application loads this key when it runs. In your Python code, you can use the python-dotenv package to automatically load environment variables from the .env file:
+
+```bash
+pip install python-dotenv
+```
+
+Then, wherever you're initializing the OpenAI API, add:
+
+```
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+```
+Now, your OpenAI API key is securely loaded from the environment, and you're ready to start using it in your RAG system! 🎉
+
 ## 🛠️ Features
 
 - **Retrieval-Augmented Generation**: Combines the best of both worlds—retrieving relevant data and generating insightful responses.
