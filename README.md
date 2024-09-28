@@ -53,6 +53,7 @@ Make sure you have the following installed:
    Now, your FastAPI app will be running at `http://127.0.0.1:8000` 🎉!
 
 ### Add Your OpenAI API Key 🔑
+
 To integrate the OpenAI language model into your RAG system, you’ll need to provide your OpenAI API key. Follow these steps to set it up:
 
 1. Get your API key: If you don’t have one yet, you can generate your OpenAI API key by logging into your account on the OpenAI platform.
